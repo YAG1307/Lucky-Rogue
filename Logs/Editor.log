@@ -1,0 +1,1251 @@
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 27392)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 18656)
+VBCSCompiler prewarm took 114.79 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER" at "2026-10-15T23:48:32.5326259Z"
+Built from '6000.6/staging' branch; Version is '6000.6.4f1 (12bfff696524) revision 1228799'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Professional' Language: 'en' Physical Memory: 15773 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-15T23:48:32Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3472, path: "E:/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              6fd130863364408a9dca4662e8c28224
+  Correlation Id:          b5a6158030ffb27ecdd401543e0033ca
+  External correlation Id: 5409965535058796840
+  Machine Id:              hjAEGhjvyZZMVDTTjy+hs+boyBc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-USER" (connect: 0.00s, validation: 0.82s, handshake: 0.24s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-USER-notifications" at "2026-10-15T23:48:33.5966442Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token reJqDbP_MN...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.07
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Module] Licensing Background thread has ended after 1.16s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Unity.exe
+-projectpath
+E:\Unity\Projects\Lucky Rogue
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-USER
+-hubSessionId
+f63ff14d-0aa2-463c-a36e-430c2b4c619d
+-accessToken
+reJqDbP_MNRMc_6SxjnEQNIzmI7LeK010HG6dbPn8JE011f
+Successfully changed project path to: E:\Unity\Projects\Lucky Rogue
+E:/Unity/Projects/Lucky Rogue
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [27348]  Target information:
+
+Player connection [27348]  * "[IP] 10.0.0.244 [Port] 55504 [Flags] 2 [Guid] 1473431898 [EditorId] 1473431898 [Version] 1048832 [Id] WindowsEditor(7,Hasan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-12056" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 3e602ca806fa165f0ef6ff4826cdc73d
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = E:/Unity/Projects/Lucky RogueActive build profile path: `Assets/Settings/Build Profiles/Web - Desktop - Release.asset`
+Unity Data Store running and initialised
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `m_BuildTarget`, value `20`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Refreshing native plugins compatible for Editor in 4.21 ms, found 0 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.4f1 (12bfff696524)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Projects/Lucky Rogue/Assets
+[D3D12 Device Filter] Vendor Name: ATI
+[D3D12 Device Filter] Device Name: AMD Radeon(TM) Graphics
+[D3D12 Device Filter] Driver Version: 31.0.21918.3001
+[D3D12 Device Filter] Feature Level: 12.1
+[D3D12 Device Filter] Graphics Memory: 7886 MB
+[D3D12 Device Filter] Processor Count: 4
+[D3D12 Device Filter] Device Type: Integrated
+[D3D12 Device Filter] D3D12 API denied by user filter: {"Processor Count Comparator": Less Than Or Equal To"Processor Count": "4", "Device Type:": Do Not Care}
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7886 MB
+    Driver:   31.0.21918.3001
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011642 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Got setting from build profile YAML, name `Color Space`, value `1`
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  8.299 seconds
+Domain Reload Profiling: 11625ms
+	BeginReloadAssembly (424ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (359ms)
+	initialDomainReloadingComplete (233ms)
+	LoadAllAssembliesAndSetupDomain (2291ms)
+		LoadAssemblies (382ms)
+		TypeCache.Refresh (1921ms)
+			TypeCache.ScanAssembly (1345ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (8303ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (739ms)
+			ProcessInitializeOnLoadMethodAttributes (5207ms)
+			EditorAssembliesLoaded (3ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Got setting from build profile YAML, name `Color Space`, value `1`
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 68 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@16.0.1 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.animation@899988b542b9)
+    com.unity.2d.aseprite@6.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.aseprite@ab909e3e9b5f)
+    com.unity.2d.psdimporter@15.0.1 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.psdimporter@e02a9153d8d9)
+    com.unity.2d.spriteshape@16.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.spriteshape@42798c9d35d3)
+    com.unity.2d.tilemap.extras@9.0.1 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.tilemap.extras@9446f3c60919)
+    com.unity.2d.tooling@4.0.1 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.tooling@4e93af4036ee)
+    com.unity.collab-proxy@2.13.6 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.common@15.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.common@b779c433ed47)
+    com.unity.searcher@4.9.5 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.sprite@752945c75a6f)
+    com.unity.2d.tilemap@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.2d.tilemap@f4c7bd71ac8a)
+    com.unity.multiplayer.center@2.0.1 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.multiplayer.center@549886182930)
+    com.unity.render-pipelines.universal@17.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.render-pipelines.universal@b0678dfc9e21)
+    com.unity.test-framework@1.8.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.render-pipelines.core@285af6b8c83f)
+    com.unity.shadergraph@17.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.shadergraph@58bcb150677d)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.mathematics@1.4.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.collections@6.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.graph-authoring@1.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.test-framework.performance@6.6.0 (location: E:\Unity\Projects\Lucky Rogue\Library\PackageCache\com.unity.test-framework.performance@b6023decb532)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.07 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/Projects/Lucky Rogue
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 16s
+[ 349/1212  0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+[ 733/1212  2s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (16.30 seconds), 2 items updated, 1212 evaluated
+AssetDatabase: script compilation time: 19.264878s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 575.32 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  7.005 seconds
+Domain Reload Profiling: 13228ms
+	BeginReloadAssembly (1069ms)
+		DisableScriptedObjects (215ms)
+		CreateAndSetChildDomain (286ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (187ms)
+	LoadAllAssembliesAndSetupDomain (4903ms)
+		LoadAssemblies (4228ms)
+		TypeCache.Refresh (458ms)
+			TypeCache.ScanAssembly (434ms)
+		AnalyzeDomain (215ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (7007ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (299ms)
+			ProcessInitializeOnLoadAttributes (1721ms)
+			ProcessInitializeOnLoadMethodAttributes (2833ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Starting new worker id: 0 with log in E:/Unity/Projects/Lucky Rogue/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=717dc967c1302554db0f618ff04ded66): Total: 46.660 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=20545 ms
+		Asset DB Callback time: managed=121 ms, native=158 ms
+		Scripting: domain reloads=1, domain reload time=6400 ms, compile time=19270 ms, other=163 ms
+		Project Asset Count: scripts=1661, non-scripts=3323
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 162.585ms
+	ApplyChangesToAssetFolders: 2.192ms
+	Scan: 318.928ms
+	Collect global state as custom dependencies: 65.778ms
+	CategorizeScriptCompilationAssets: 3725.540ms
+	ProcessAssetsWithTransientArtifactChanges: 207.437ms
+	CategorizeAssets: 147.875ms
+	CompileScripts: 19269.700ms
+	ImportOutOfDateAssets: 7797.362ms (7682.571ms without children)
+		ReloadNativeAssets: 0.621ms
+		UnloadImportedAssets: 4.349ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.723ms
+		ImportSchedulerStart: 108.094ms
+	PostProcessAllAssets: 121.767ms
+		MonoPostProcessAllAssets: 121.621ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 45.698ms
+			SyncVS.PostprocessSyncProject 32.882ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 5.351ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.209ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.505ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.481ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.288ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.707ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.647ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.469ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.442ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.434ms
+	UnloadStreamsBegin: 4.823ms
+	PersistCurrentRevisions: 0.237ms
+	GenerateScriptTypeHashes: 3.978ms
+	GenerateScriptTypeSerializationHashes: 7.358ms
+	Untracked: 14770.809ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Worker ready: AssetImportWorkerHW0 0
+Scanning for USB devices : 3.111ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Lucky Rogue
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Main Menu.unity'
+	Deserialize:            123.396 ms
+	Integration:            550.191 ms
+	Integration of assets:  5.574 ms
+	Thread Wait Time:       0.093 ms
+	Total Operation Time:   679.254 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Unloading 7418 unused Assets / (5.7 MB). Loaded Objects now: 8569.
+Memory consumption went from 454.5 MB to 448.8 MB.
+Total: 74.331900 ms (FindLiveObjects: 1.164000 ms CreateObjectMapping: 0.831200 ms MarkObjects: 14.125600 ms  DeleteObjects: 57.787800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Refreshing native plugins compatible for Editor in 7.31 ms, found 5 plugins.
+[LAYOUT] About to save layout E:\Unity\Projects\Lucky Rogue\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/USER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 103.629 seconds
+	Project init time: 				95.272 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.543 seconds
+		Asset Database init time: 		5.769 seconds
+		Global illumination init time: 	0.026 seconds
+		Assemblies load time: 			11.862 seconds
+		Unity extensions init time: 	0.085 seconds
+		Asset Database refresh time: 	46.664 seconds
+	Scene opening time: 			7.753 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1792108215842,"processId":12056,"projectLoad":103.6285866,"projectInit":95.2715209,"templateInit":0.0,"packageManagerInit":0.5430292,"assetDatabaseInit":5.7694859,"globalIlluminationInit":0.0263108,"assembliesLoad":11.8623412,"unityExtensionsInit":0.0846818,"assetDatabaseRefresh":46.6638441,"sceneOpening":7.7525412}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1792108215843,"processId":12056,"editorVersion":"6000.6.4f1 (12bfff696524)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Asset Pipeline Refresh (id=ca83b76c0f7d0f542a35d8fbf3df015e): Total: 0.184 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=8d2b69d0d0cb7434bad5c3054ffdfd6c): Total: 0.023 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e1d79ebe068aad74d93fada513cb546a): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a032496691fb6dd47a24972c30d83299): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Created GICache directory at C:/Users/USER/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.086s, timestamps: [105.624 - 105.710]
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "reJqDbP_"... (expires: 2026-10-16T01:31:01Z)
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '1bc887be-2038-4133-a8df-9755e24e078b'.
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=136a756d6f2591b4f93c1603db3f45a9): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dc85148863f054dede0562a6b34bb7f5') in 0.2042472 seconds
+[Worker0] Imported GUID: dd54d31aa55ea4244b0fca90e6d2962a - Path: Assets/Game/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8e76240fa0e28539a6bc80ec4e6518f7') in 0.085753 seconds
+Asset Pipeline Refresh (id=7b4c2b88f8464bb458d9c8430a39c691): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2400df655e6e9694bb7a6b132ffdc1da): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=948c87dec5fbe304c986fc3cb49eba5b): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e32fbbc9b901f8e43a6f7df39bb6ee53): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=94a08c9643b7d7b4aa32bbd792c73dae): Total: 0.010 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=bb617ee7dfc57a54a89d6b4642a269e2): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=89f7d2d6a5a0b0040b43807b2324aab2): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=f38b4104423b1f74e84434d9acae2892): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a86bd344e7604b1408ebd1756799938f): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=38bf4ee5fc4fb9041b79d01bf1232610): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=45d558e27f00d3549aac052db314da62): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=46ad91e30e34e464f83f102a7e532b74): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker0] Imported GUID: 068163d4b8cc1374f9f7459adff68111 - Path: Assets/Board/LaneClick.cs - Importer: PreviewImporter -> (ImportResultId: 'cbe3508e50e65a27113b4abd1f00384e') in 0.0290636 seconds
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+
+[main 2026-10-15T23:58:22.076Z] [node-compile-cache] main: packaged cache enabled (status: enabled, configured: E:\Microsoft VS Code\6d62b1d5da\resources\app\node-compile-cache\main, active: E:\Microsoft VS Code\6d62b1d5da\resources\app\node-compile-cache\main\v24.21.0-x64-c3a7e8f2)
+[main 2026-10-15T23:58:22.872Z] StorageMainService: creating application shared storage
+[main 2026-10-15T23:58:25.613Z] [shared storage] Creating shared storage database at 'c:\Users\USER\.vscode-shared\sharedStorage\state.vscdb' (wasCreated: false)
+[main 2026-10-15T23:58:25.613Z] [shared storage] Initializing fallback application storage (path: c:\Users\USER\AppData\Roaming\Code\User\globalStorage\state.vscdb)
+[main 2026-10-15T23:58:26.583Z] [shared storage] Fallback application storage initialized with 170 items
+[main 2026-10-15T23:58:35.242Z] update#setState idle
+[main 2026-10-15T23:58:35.829Z] AgentHostProcessManager: agent host started
+[main 2026-10-15T23:58:44.648Z] vscode-file: Refused to load resource e:\Microsoft VS Code\16507d91be\resources\app\extensions\theme-seti\icons\seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/e:/Microsoft%20VS%20Code/16507d91be/resources/app/extensions/theme-seti/icons/seti.woff)
+(node:15428) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+[main 2026-10-15T23:59:13.136Z] [AgentHost:stderr] (node:27300) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `Code --trace-deprecation ...` to show where the warning was created)
+
+Unknown channel: agentHostClientByokLm
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Asset Pipeline Refresh (id=0ed00f4986912b448a05c3d9512d6f07): Total: 0.011 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[main 2026-10-15T23:59:48.371Z] update#setState checking for updates
+[main 2026-10-15T23:59:48.467Z] update#setState idle
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Unknown channel: agentHostClientProxy
+Asset Pipeline Refresh (id=c3dc7f6375ec58f408f1271a4f418fa7): Total: 0.240 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.4f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/Projects/Lucky Rogue
+ExitCode: 0 Duration: 38s
+[ 544/1212  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[BUSY       6s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY      16s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1208/1212 24s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+[BUSY       6s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+[1209/1212 11s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll, with 125 defines and 367 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[1210/1212  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1211/1212  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (38.16 seconds), 5 items updated, 1212 evaluated
+Total cache size 226332183
+Total cache size after purge 226332183, took 00:00:01.9906638
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 389.80 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Refreshing native plugins compatible for Editor in 7.93 ms, found 5 plugins.
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  9.089 seconds
+Domain Reload Profiling: 22519ms
+	BeginReloadAssembly (8645ms)
+		ExecutionOrderSort (108ms)
+		DisableScriptedObjects (2642ms)
+		CreateAndSetChildDomain (2933ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (283ms)
+	LoadAllAssembliesAndSetupDomain (4442ms)
+		LoadAssemblies (3717ms)
+		TypeCache.Refresh (146ms)
+			TypeCache.ScanAssembly (11ms)
+		AnalyzeDomain (727ms)
+			BuildScriptInfoCaches (491ms)
+			ResolveRequiredComponents (57ms)
+	FinalizeReload (9091ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (32ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (457ms)
+			ProcessInitializeOnLoadAttributes (1340ms)
+			ProcessInitializeOnLoadMethodAttributes (327ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (48ms)
+		AwakeInstancesAfterBackupRestoration (5260ms)
+Refreshing native plugins compatible for Editor in 3.43 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=79f53e46276f36947a49bdfd1992e084): Total: 82.264 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=11549 ms
+		Asset DB Callback time: managed=252 ms, native=144 ms
+		Scripting: domain reloads=1, domain reload time=14029 ms, compile time=56288 ms, other=0 ms
+		Project Asset Count: scripts=1661, non-scripts=3323
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 55.619ms
+	ApplyChangesToAssetFolders: 0.769ms
+	Scan: 437.886ms
+	Collect global state as custom dependencies: 9.683ms
+	OnSourceAssetsModified: 2.286ms
+	CategorizeScriptCompilationAssets: 0.073ms
+	ProcessAssetsWithTransientArtifactChanges: 95.634ms
+	CategorizeAssets: 161.632ms
+	CompileScripts: 56288.375ms
+	ImportOutOfDateAssets: 10170.033ms (10126.875ms without children)
+		CollectScriptTypesHashes: 553.115ms
+		ReloadNativeAssets: 1.601ms
+		UnloadImportedAssets: 3.804ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.361ms
+		ImportSchedulerStart: 36.301ms
+	PostProcessAllAssets: 281.471ms
+		PostProcessCallbackCreateDeferredMaterials 26.077ms
+		XRBuildSystem.XRAssetImported 0.443ms
+		MonoPostProcessAllAssets: 251.770ms
+			AssetPostprocessor.OnPostprocessAllAssets 105.976ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 50.032ms
+			SyncVS.PostprocessSyncProject 12.060ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.730ms
+			AssetChangedListener.OnPostprocessAllAssets 7.889ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 6.082ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.389ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 4.125ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 3.758ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.928ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.715ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.654ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.620ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.247ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.198ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.049ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.971ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.947ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.813ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.812ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.797ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.772ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.643ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.608ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.551ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.548ms
+			PostProcessor.OnPostprocessAllAssets 0.547ms
+			AssetProcessor.OnPostprocessAllAssets 0.465ms
+			AssetEvents.OnPostprocessAllAssets 0.405ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.381ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.381ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.339ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.336ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.289ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.278ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.245ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.228ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.216ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.209ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.200ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.125ms
+	PostAssetChangesProfiler: 62.087ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.402ms
+	PersistCurrentRevisions: 0.215ms
+	GenerateScriptTypeHashes: 358.017ms
+	GenerateScriptTypeSerializationHashes: 564.464ms
+	Untracked: 14126.145ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=7b657916a838df148a208d3b6e600e01): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a7b2a912c3d67c543948550bb1aa742e): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+SpriteAtlasPacking completed in 0.029161 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            81.171 ms
+	Integration:            2161.948 ms
+	Integration of assets:  0.177 ms
+	Thread Wait Time:       -0.063 ms
+	Total Operation Time:   2243.233 ms
+[Licensing::Client] Successfully resolved entitlement details
+The referenced script (Unknown) on this Behaviour is missing!
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.045300 ms
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            531.019 ms
+	Integration:            159.769 ms
+	Integration of assets:  2.008 ms
+	Thread Wait Time:       21.699 ms
+	Total Operation Time:   714.495 ms
+Unloading 75 unused Assets / (16.8 MB). Loaded Objects now: 10388.
+Memory consumption went from 0.67 GB to 0.65 GB.
+Total: 277.546200 ms (FindLiveObjects: 0.842900 ms CreateObjectMapping: 0.270600 ms MarkObjects: 148.459900 ms  DeleteObjects: 127.691100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.340 ms
+	Integration:            40.960 ms
+	Integration of assets:  0.237 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   43.557 ms
+Unloading 6 unused Assets / (2.4 MB). Loaded Objects now: 9900.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 38.472400 ms (FindLiveObjects: 0.814000 ms CreateObjectMapping: 0.278200 ms MarkObjects: 36.922800 ms  DeleteObjects: 0.186000 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Q78C-64GT-TCU6-2379-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967295716245-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Asset Pipeline Refresh (id=14bcf2cfc894d1e478a305e7cff3ee30): Total: 0.034 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '199f18bcb8ecff9c51bbd0efa23c6c2c') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6f53cc341093a3fa92f8199021a9b687 StaticDependenciesID=2ecab25e7aaa793aa5665a83b5a4ac88 
+Importing 'GUID: c34e6c8d945826c489095410889fa828 - Path: Assets/Board/Caveat-VariableFont_wght SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c34e6c8d945826c489095410889fa828' -> (Import Result ID: '7bcfc7046f3ac9d45e509716cb17b7e1') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=0b26f89373acd898b7ec80ff84c92d89 DependenciesID=4151a3300796d403a74ace91bef5b762 StaticDependenciesID=c4874292901442e1dc68d8dc45045204 
+Importing 'GUID: 9811562d28f0a7741b82eb9befce0f1c - Path: Assets/Sprites/m6x11 SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9811562d28f0a7741b82eb9befce0f1c' -> (Import Result ID: '0c75a45d7b24aff4741935a838dd7f30') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=060ab5685bc361a1e5c2004ab569ff33 DependenciesID=bd6c3888239ca673c4951ddecdd6c2f5 StaticDependenciesID=516f16366084762d48d612d02b68e59f 
+Refreshing native plugins compatible for Editor in 5.87 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=9dd230ab6c8d7004cb78c1ffe0a27476): Total: 1.160 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=3 (actual=3, local cache=0, cache server=0)
+		Asset DB Process Time: managed=5 ms, native=1122 ms
+		Asset DB Callback time: managed=17 ms, native=14 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1661, non-scripts=3323
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 6
+	ApplyChangesToAssetFolders: 0.120ms
+	Scan: 56.473ms
+	Collect global state as custom dependencies: 0.596ms
+	OnSourceAssetsModified: 0.879ms
+	ProcessAssetsWithTransientArtifactChanges: 0.138ms
+	CategorizeAssets: 30.288ms
+	ImportOutOfDateAssets: 975.411ms (0.376ms without children)
+		ImportManagerImport: 973.136ms (26.068ms without children)
+			UpdateCategorizedAssets: 0.098ms
+		ReloadNativeAssets: 0.079ms
+		UnloadImportedAssets: 0.221ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.054ms
+		ImportSchedulerStart: 0.523ms
+	PostProcessAllAssets: 25.275ms
+		XRBuildSystem.XRAssetImported 7.825ms
+		MonoPostProcessAllAssets: 17.057ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 6.344ms
+			AssetPostprocessor.OnPostprocessAllAssets 6.072ms
+			SyncVS.PostprocessSyncProject 1.530ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.908ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.544ms
+			AssetChangedListener.OnPostprocessAllAssets 0.267ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.260ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.226ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.147ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.085ms
+			PostProcessor.OnPostprocessAllAssets 0.064ms
+	PostAssetChangesProfiler: 6.288ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.232ms
+	PersistCurrentRevisions: 60.110ms
+	UnloadStreamsEnd: 0.116ms
+	Untracked: 4.189ms
+
+MonoPathRemapper: Attempts to remap: 180547; Successful remaps: 30100
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout E:\Unity\Projects\Lucky Rogue\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/USER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Clearing [Caveat-VariableFont_wght SDF] dynamic font asset data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TMPro.EditorEventCallbacks/<>c:<InitializeFontAssetResourceChangeCallBacks>b__0_0 () (at ./Library/PackageCache/com.unity.ugui@0727b404f3a0/Editor/TMP/TMP_EditorResourceManager.cs:36)
+UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@0727b404f3a0/Editor/TMP/TMP_EditorResourceManager.cs Line: 36)
+
+Clearing [m6x11 SDF] dynamic font asset data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TMPro.EditorEventCallbacks/<>c:<InitializeFontAssetResourceChangeCallBacks>b__0_0 () (at ./Library/PackageCache/com.unity.ugui@0727b404f3a0/Editor/TMP/TMP_EditorResourceManager.cs:36)
+UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@0727b404f3a0/Editor/TMP/TMP_EditorResourceManager.cs Line: 36)
+
+Importing 'GUID: c34e6c8d945826c489095410889fa828 - Path: Assets/Board/Caveat-VariableFont_wght SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c34e6c8d945826c489095410889fa828' -> (Import Result ID: '88bd57d4c4af0122ecaea9e58b587688') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=0b26f89373acd898b7ec80ff84c92d89 DependenciesID=914ef2aa2dc92ffddd3863ab4d0c026a StaticDependenciesID=2fb6ffb3451f4da16e8ccc8ac7334cc2 
+[main 2026-10-16T00:18:53.474Z] Extension host with pid 18880 exited with code: 0, signal: unknown.
+Importing 'GUID: 9811562d28f0a7741b82eb9befce0f1c - Path: Assets/Sprites/m6x11 SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9811562d28f0a7741b82eb9befce0f1c' -> (Import Result ID: 'a41f84ef43c1e4a9ef6a9adf47dad63a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=060ab5685bc361a1e5c2004ab569ff33 DependenciesID=ebb7abe6300324e00de5f3b67c974277 StaticDependenciesID=6d0f44d3afcad2bd4071395548ff3a56 
+Refreshing native plugins compatible for Editor in 3.94 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=96c749b413498af4e9ec9648f3a1d2b7): Total: 1.101 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1092 ms
+		Asset DB Callback time: managed=3 ms, native=4 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1661, non-scripts=3323
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 5
+	ApplyChangesToAssetFolders: 0.128ms
+	Scan: 92.031ms
+	Collect global state as custom dependencies: 0.513ms
+	OnSourceAssetsModified: 0.093ms
+	ProcessAssetsWithTransientArtifactChanges: 0.113ms
+	CategorizeAssets: 187.441ms
+	ImportOutOfDateAssets: 793.585ms (0.482ms without children)
+		ImportManagerImport: 702.107ms (2.938ms without children)
+			UpdateCategorizedAssets: 0.068ms
+		ReloadNativeAssets: 0.148ms
+		UnloadImportedAssets: 0.229ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.931ms
+		ImportSchedulerStart: 89.666ms
+	PostProcessAllAssets: 4.050ms
+		XRBuildSystem.XRAssetImported 0.444ms
+		MonoPostProcessAllAssets: 3.411ms
+			SyncVS.PostprocessSyncProject 1.373ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.645ms
+			AssetChangedListener.OnPostprocessAllAssets 0.401ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.148ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.135ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.090ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.068ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.051ms
+	PostAssetChangesProfiler: 4.314ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.210ms
+	PersistCurrentRevisions: 0.249ms
+	UnloadStreamsEnd: 0.078ms
+	Untracked: 18.491ms
+
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-USER-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-USER channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000064B4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000063E8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000064B4, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000063E8, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 3332
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792109946036,"processId":12056,"allocatedMemory":18068739,"memoryLabels":[{"Default":202032},{"Permanent":15516},{"NewDelete":71553},{"Thread":4198024},{"Manager":817309},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":856604},{"Material":132},{"GfxDevice":55968},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":41592},{"Input":45280},{"JobScheduler":256},{"TextLib":18409},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1557856},{"BaseObject":49040},{"Resource":1444},{"Renderer":2504},{"Transform":4685},{"File":16296},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":617434},{"StaticString":3808},{"Utility":2673362},{"Curl":48},{"PoolAlloc":2312},{"AI":80},{"TypeTree":252036},{"ScriptManager":18984},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7728},{"WebRequest":4717},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":1080},{"Camera":729},{"Secure":2641},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268062},{"EditorUtility":737369},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4968021},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36922},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":258},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3598},{"Windowing":456},{"TLS":31549},{"Licensing":12804},{"AssetReference":32},{"IPCStream":32}]}
